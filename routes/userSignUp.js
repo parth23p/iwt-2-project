@@ -8,6 +8,9 @@ const nodemailer = require("nodemailer");
 const sendMail = (email, name) => {
   let mailTransporter = nodemailer.createTransport({
     service: "gmail",
+    host: "smtp.gmail.com",
+    port: 465,
+    secure: true,
     auth: {
       user: "pcubepatel@gmail.com",
       pass: "Bspcnp2011418@",
