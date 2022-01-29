@@ -1,0 +1,23 @@
+{
+  "name": "iwt-2",
+  "version": "1.0.0",
+  "description": "iwt-2",
+  "main": "index.js",
+  "scripts": {
+    "start":"node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Parth Patel",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.1",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.8",
+    "mongoose-unique-validator": "^3.0.0",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.15"
+  }
+}
