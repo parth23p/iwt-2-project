@@ -12,8 +12,8 @@ const sendMail = (email, name) => {
     port: 465,
     secure: true,
     auth: {
-      user: "pcubepatel@gmail.com",
-      pass: "Bspcnp2011418@",
+      user: "testingpartner99@gmail.com",
+      pass: "hello123@test",
     },
   });
 
